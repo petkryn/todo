@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.todo_add-container {
+  width: 500px;
+  background-color: rgb(127, 255, 170);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border: 1px solid rgb(0, 255, 85);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.todo_container {
+  width: 500px;
+  background-color: rgb(127, 255, 170);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+  border: 1px solid rgb(0, 255, 85);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.todo_add-date {
+  width: 3%;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding-top: 20px;
+}
+
+p {
+  color: rgb(88, 84, 84);
+}
+
+.todo_add-btn {
+  background-color: rgb(252, 252, 199);
+}
